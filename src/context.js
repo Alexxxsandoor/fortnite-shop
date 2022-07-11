@@ -5,7 +5,7 @@ export const ShopContext = createContext();
 
 const initialState = {
 	goods: [],
-	loadin: true,
+	loading: true,
 	order: [],
 	isBasketShow: false,
 	alertName: '',
