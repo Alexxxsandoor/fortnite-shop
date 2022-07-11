@@ -1,6 +1,6 @@
 {
 	"name": "shop",
-	"home": "https://Alexxxsandoor.github.io/fortnite-shop",
+	"homepage": "https://Alexxxsandoor.github.io/fortnite-shop",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
