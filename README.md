@@ -1,2 +1,2 @@
-##Fortnite Shop
+# Fortnite Shop
 [Demo](https://alexxxsandoor.github.io/fortnite-shop/)
