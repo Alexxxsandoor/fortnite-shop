@@ -1,3 +1,6 @@
+import React, { useContext } from "react"
+import { ShopContext } from "../context";
+
 function GoodsItem(props) {
 	const {
 		id,
@@ -6,9 +9,11 @@ function GoodsItem(props) {
 		price,
 		image,
 		internalRarity,
-		buyOrder = Function.prototype,
 		color = Function.prototype
 	} = props
+
+	const { buyOrder } = useContext(ShopContext)
+
 
 
 	return (
@@ -20,7 +25,8 @@ function GoodsItem(props) {
 			</div>
 			<div className="card-content">
 				<span className=
-					{"goods-item card-title " + color(internalRarity)}>
+					{`goods-item card-title ${color(internalRarity)}`}>
+
 					{name}
 				</span>
 				<p>{description}</p>
